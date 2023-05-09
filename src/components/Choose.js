@@ -21,7 +21,7 @@ function Choose() {
                 </TitleBlock>
                 <ContentBlock>
                     <FlexContainer>
-                        {items.map((item) => <ContentBlockItem item={item} color={'#e8cd30'} responsive={'col-s-4 col-2'} />)}
+                        {items.map((item) => <ContentBlockItem item={item} type='chooseItem' />)}
                     </FlexContainer>
                 </ContentBlock>
             </Container>

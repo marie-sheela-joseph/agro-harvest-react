@@ -22,7 +22,7 @@ function BestHarvesting() {
                 </TitleBlock>
                 <ContentBlock>
                     <FlexContainer>
-                        {items.map((item) => <ContentBlockItem item={item} color={'#fff'} bgColor={'#009f4d'} responsive={'col-s-6 col-4'} />)}
+                        {items.map((item) => <ContentBlockItem item={item} type='bestItem' />)}
                     </FlexContainer>
                 </ContentBlock>
             </Container>

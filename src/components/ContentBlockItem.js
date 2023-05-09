@@ -1,11 +1,17 @@
 import React from 'react'
 import Description from './Description'
-
-function ContentBlockItem({ item, color, bgColor, responsive }) {
+import styles from './ContentBlokItem.module.css'
+function ContentBlockItem({ item, type }) {
+    let res = ''
+    if (type === 'bestItem') {
+        res = `${styles[type]} col-s-6 col-4`
+    } else if (type === 'chooseItem') {
+        res = `${styles[type]} col-s-4 col-2`
+    }
     return (
-        <div className={`${responsive} contentBlockItem`} style={{ textAlign: 'center', padding: '2px' }}>
-            <div className='contentBlockItem__icon' style={{ fontSize: '50px', backgroundColor: bgColor, width: '70px', height: '70px', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center', color: color, margin: 'auto', marginBottom: '10px' }}>{item.image}</div>
-            <h3 style={{ marginBottom: '10px' }}>{item.title}</h3>
+        <div className={res}>
+            {item.image}
+            <h3>{item.title}</h3>
             <Description>{item.description}</Description>
         </div>
     )

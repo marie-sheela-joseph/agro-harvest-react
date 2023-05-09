@@ -1,0 +1,36 @@
+.bestItem{
+    text-align: center;
+    padding: 2px;
+}
+.bestItem i{
+    text-align: center;
+    font-size: 20px;
+     background-color: #009f4d;
+             line-height: 70px;
+             width: 70px;
+             height: 70px;
+             margin: 0.5em auto 0;       
+        border-radius: 50%;
+          color: #fff;            
+}
+.bestItem h3{
+    margin: 20px 0;
+}
+.chooseItem{
+    text-align: center;
+    padding: 2px;
+}
+.chooseItem i{
+    font-size: 50px;    
+     width: 70px;
+      height: 70px;               
+         color: #e8cd30;
+           margin-bottom: 10px
+}
+.chooseItem h3{
+    color: #fff;
+    margin: 20px 0;
+}
+.chooseItem p{
+    color: #ccc;
+}
