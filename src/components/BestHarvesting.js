@@ -14,7 +14,7 @@ function BestHarvesting() {
     { image: <i class="fa-brands fa-apple"></i>, title: 'FRUITS & BERRIES', description: 'Integer sit amet mattis quam, sit amet ul tricies velit. Praesent ullam corper dui turpis dolor sit amet quam.' },
     { image: <i class="fa-brands fa-pagelines"></i>, title: 'VEGETABLES', description: 'Integer sit amet mattis quam, sit amet ul tricies velit. Praesent ullam corper dui turpis dolor sit amet quam.' }]
     return (
-        <Section>
+        <Section color={'#fff'}>
             <Container>
                 <TitleBlock>
                     <SectionHeading title={'Best Harvesting Agriculture Company'} color={'#323648'} />
@@ -22,7 +22,7 @@ function BestHarvesting() {
                 </TitleBlock>
                 <ContentBlock>
                     <FlexContainer>
-                        {items.map((item) => <ContentBlockItem item={item} color={'#009f4d'} />)}
+                        {items.map((item) => <ContentBlockItem item={item} color={'#fff'} bgColor={'#009f4d'} responsive={'col-s-6 col-4'} />)}
                     </FlexContainer>
                 </ContentBlock>
             </Container>

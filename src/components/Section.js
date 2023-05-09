@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Section({ children }) {
+function Section({ children, color }) {
     return (
-        <div className='section'>
+        <div className='section' style={{ backgroundColor: color }}>
             {children}
         </div>
     )
