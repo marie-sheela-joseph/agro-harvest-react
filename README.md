@@ -1,3 +1,7 @@
+
+![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/9480d5bf-b1d7-4de0-99dd-a74895d52782)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
