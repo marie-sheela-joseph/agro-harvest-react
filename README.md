@@ -1,5 +1,5 @@
 
-![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/9480d5bf-b1d7-4de0-99dd-a74895d52782)
+![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/a4fb590d-d895-47d5-9cfe-61509949c250)
 
 
 # Getting Started with Create React App
