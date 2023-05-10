@@ -1,6 +1,6 @@
 import React from 'react'
 import Description from './Description'
-import styles from './ContentBlokItem.module.css'
+import styles from './ContentBlockItem.module.css'
 function ContentBlockItem({ item, type }) {
     let res = ''
     if (type === 'bestItem') {
