@@ -1,0 +1,27 @@
+.product{
+    position: relative;
+    padding: 10px;
+}
+.product img{
+    height: 250px;
+}
+.product__about{
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 200px;
+    background: #fff;
+    z-index: 1;    
+    padding: 10px;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.08), 0 5px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 14px 0 rgba(0, 0, 0, 0.06);
+    
+}
+.product__about h3{
+    margin-bottom: 20px;
+}
+.product__about h3::after{
+    content: "\f18c";
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+    color: #009f4d;
+}

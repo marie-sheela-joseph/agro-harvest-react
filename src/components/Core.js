@@ -1,5 +1,5 @@
 import React from 'react'
-import Section from './Section'
+
 import Container from './Container'
 import TitleBlock from './TitleBlock'
 import ContentBlock from './ContentBlock'
@@ -10,7 +10,7 @@ function Core() {
     const heading = `IMPROVING AGRICULTURE, IMPROVING LIVES, CULTIVATING NEW CROPS TO MAKE FARMERS INCREASE PROFIT.`
     const description = `Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullam corper dui turpis dolor sit amet quam. Nulla commodo gravida porttitor. Aenean posuere lacus quis leo imperdiet laoreet. Proin vulputate semper odio quam. Nulla commodo gravida porttitor. Aenean posuere lacus quis.`
     return (
-        <Section>
+        <section>
             <Container>
                 <TitleBlock>
                     <SectionHeading title={'Our Core Values'} color={'#323648'} />
@@ -27,7 +27,7 @@ function Core() {
                     </FlexContainer>
                 </ContentBlock>
             </Container>
-        </Section >
+        </section >
     )
 }
 

@@ -8,5 +8,8 @@ export const data = {
         Integer sit ut amet mattis quam, sit amet ultricies velit.Praesent ullam corper dui turpis dolor sit amet quam.Nulla sed commodo gravida porttitor.`,
         list: [`Crop Cultivation`, `Farming Land`, `Harvesting Crops`, `Improving Agriculture`, `Innovators In Agricultural Business`, `Agricultural Robots`, `Grains And Oil Seeds`],
         background: `./assets/innovators_bg.jpg`
-    }
+    },
+    products: [{ title: 'FARMING LAND', description: 'Integer sit ut amet mattis quam, sit amet ultricies velit. Praesent ullam corper dui turpis sit.', imgSrc: `./assets/innovators_bg.jpg`, imgAlt: 'FARMING LAND' },
+    { title: 'CULTIVATION', description: 'Integer sit ut amet mattis quam, sit amet ultricies velit. Praesent ullam corper dui turpis sit.', imgSrc: `./assets/cultivation.jpg`, imgAlt: 'CULTIVATION' },
+    { title: 'HARVESTING', description: 'Integer sit ut amet mattis quam, sit amet ultricies velit. Praesent ullam corper dui turpis sit.', imgSrc: `./assets/harvesting.jpg`, imgAlt: 'HARVESTING' }]
 }

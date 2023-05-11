@@ -1,5 +1,5 @@
 import React from 'react'
-import Section from './Section'
+
 import Container from './Container'
 import TitleBlock from './TitleBlock'
 import ContentBlock from './ContentBlock'
@@ -14,7 +14,7 @@ function BestHarvesting() {
     { image: <i class="fa-brands fa-apple"></i>, title: 'FRUITS & BERRIES', description: 'Integer sit amet mattis quam, sit amet ul tricies velit. Praesent ullam corper dui turpis dolor sit amet quam.' },
     { image: <i class="fa-brands fa-pagelines"></i>, title: 'VEGETABLES', description: 'Integer sit amet mattis quam, sit amet ul tricies velit. Praesent ullam corper dui turpis dolor sit amet quam.' }]
     return (
-        <Section color={'#fff'}>
+        <section>
             <Container>
                 <TitleBlock>
                     <SectionHeading title={'Best Harvesting Agriculture Company'} color={'#323648'} />
@@ -26,7 +26,7 @@ function BestHarvesting() {
                     </FlexContainer>
                 </ContentBlock>
             </Container>
-        </Section>
+        </section>
     )
 }
 
