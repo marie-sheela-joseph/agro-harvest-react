@@ -14,7 +14,7 @@ function Choose() {
     { image: <i class="fa-brands fa-viadeo"></i>, title: 'CULTIVATION', description: 'quis nostrum ullamet corporis suscipit.' },
     { image: <i class="fa-solid fa-leaf"></i>, title: 'ENVIRONMENT', description: 'quis nostrum ullamet corporis suscipit.' }]
     return (
-        <Section color={'#009f4d'}>
+        <Section background={'#009f4d'}>
             <Container>
                 <TitleBlock>
                     <SectionHeading title={'Why Choose Us'} color={'#fff'} />

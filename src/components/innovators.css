@@ -1,0 +1,31 @@
+.innovators{
+    background: url(`../../../../public/assets/innovators_bg.jpg);
+    position: relative;
+    color:#fff;
+}
+.innovators .abs{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    
+}
+.innovators li{
+    list-style-type: none;
+    letter-spacing: 1px;    
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.innovators li::before{
+    content: "\f18c";
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+}
+.innovators .description{
+letter-spacing: 1px;    
+    line-height: 28px;
+}

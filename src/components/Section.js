@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Section({ children, color }) {
+function Section({ children, background }) {
     return (
-        <div className='section' style={{ backgroundColor: color }}>
+        <section style={{ background: background }}>
             {children}
-        </div>
+        </section>
     )
 }
 
