@@ -1,12 +1,32 @@
+Responsive:
+iPhoneSE:
 
-![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/a3558aa7-b677-48f8-b6cc-b3d1dd241e20)
+![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/037a938b-4bc5-489e-9f0d-e06bcd84fafe)
+
+iPad Air:
+
+![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/4bcf16c4-5abc-44ca-bce3-d302a8385906)
 
 
-![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/a4fb590d-d895-47d5-9cfe-61509949c250)
+==================================================================================================================
 
 
-![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/e28f60ba-731d-4824-bee9-19db0647604c)
+![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/f0ec84e1-3a22-45f7-8e85-a9c56a9e1e9e)
 
+
+![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/8ac8bcf7-2b4f-4dbd-aa97-cce7a0c226d8)
+
+
+![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/5fde8989-df3a-4b3d-bd88-7a2475a794ed)
+
+
+![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/3073cfd8-83b1-4c11-91b4-16735308ad3f)
+
+
+![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/3900d83d-8f60-4177-8f49-764af3945c12)
+
+
+![image](https://github.com/marie-sheela-joseph/harvesting-react/assets/92960836/b46de040-bba6-4801-be83-bf92d41cfac5)
 
 
 # Getting Started with Create React App
