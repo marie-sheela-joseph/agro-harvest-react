@@ -1,20 +1,19 @@
 import React from 'react'
-import './header.css'
-import Container from './Container'
+import styles from './header.module.css'
 function Header({ title, list }) {
     return (
-        <header className='header'>
-            <Container>
-                <div className='header__logo'>
+        <header className={styles.header}>
+            <div className='container'>
+                <div className={styles.header__logo}>
                     <i class="fa-solid fa-leaf"></i>
                     <h1>{title}</h1>
                 </div>
-                <div className='header__menu'>
+                <div className={styles.header__menu}>
                     <ul>
                         {list.map((item) => <li>{item}</li>)}
                     </ul>
                 </div>
-            </Container>
+            </div>
         </header>
     )
 }

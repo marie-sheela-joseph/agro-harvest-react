@@ -1,0 +1,48 @@
+.bestTime{
+    background: url(`../../../../public/assets/bestTime_bg.jpg);
+    position: relative;
+}
+.bestTime__abs{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+.bestTime__container{
+    position: relative;
+    z-index: 2;
+}
+.bestTime__titleBlock h2{
+    color: #fff;
+}
+.bestTime__titleBlock span{
+    color: #e8cd30;
+}
+.bestTime__contentBlock p{
+    color:#ccc;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    line-height: 4rem;
+}
+.bestTime__contentBlock >div{
+    text-align: center;
+}
+.bestTime__contentBlock button{
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;    
+    border-radius: 5px;
+}
+.bestTime__contentBlock button:first-of-type{
+    background: #e8cd30;
+    color:#333;
+}
+.bestTime__contentBlock button:nth-of-type(2){
+    background: #009f4d;
+    color: #fff;
+}

@@ -1,0 +1,11 @@
+.core__contentBlock h3{
+color: #323648;
+font-size: 2.6rem;
+margin-bottom: 20px;
+}
+.core__contentBlock p{
+    color: #707579;
+    font-size: 1.7rem;
+    line-height: 4rem;
+}
+    

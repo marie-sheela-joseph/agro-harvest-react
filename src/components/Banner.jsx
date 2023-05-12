@@ -1,15 +1,14 @@
 import React from 'react'
-import './banner.css'
+import styles from './banner.module.css'
 import { data } from '../data'
 import Header from './Header'
-import Container from './Container'
 function Banner() {
     return (
-        <section className='banner'>
+        <section className={styles.banner}>
             <Header title={'Agro Harvest'} list={data.banner.list} />
             <div>
-                <Container>
-                    <div className='banner__content'>
+                <div className={`${styles.banner__container} container`}>
+                    <div className={styles.banner__contentBlock}>
                         <div>
                             <h2>harvesting</h2>
                             <h3>cultivating new crops to make farmers increase profits</h3>
@@ -17,9 +16,9 @@ function Banner() {
                             <a href='#'>READ MORE</a>
                         </div>
                     </div>
-                </Container>
-            </div>
-        </section>
+                </div>
+            </div >
+        </section >
     )
 }
 

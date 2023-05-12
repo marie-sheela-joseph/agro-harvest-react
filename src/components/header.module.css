@@ -15,7 +15,6 @@
     color: #e8cd30;
     font-size: 30px;
     margin-right: 10px;
-    
 }
 .header li{
     color:#ddd;
@@ -28,4 +27,9 @@
     margin-right: 10px;
     font-weight: 900;
     font-family: "Font Awesome 6 Free";
+}
+@media(max-width:900px) {
+    .header__menu>ul{
+        display: none;
+    }
 }

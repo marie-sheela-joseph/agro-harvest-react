@@ -1,0 +1,6 @@
+.choose{
+    background:#009f4d;
+}
+.choose__contentBlock>div{
+    justify-content: space-between;
+}

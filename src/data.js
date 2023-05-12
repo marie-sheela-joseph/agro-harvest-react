@@ -2,6 +2,10 @@ export const data = {
     banner: {
         list: ['Home', `About Us`, `Services`, `Gallery`, `Contact`, `+12 345 6789`]
     },
+    core: {
+        heading: `IMPROVING AGRICULTURE, IMPROVING LIVES, CULTIVATING NEW CROPS TO MAKE FARMERS INCREASE PROFIT.`,
+        description: `Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullam corper dui turpis dolor sit amet quam. Nulla commodo gravida porttitor. Aenean posuere lacus quis leo imperdiet laoreet. Proin vulputate semper odio quam. Nulla commodo gravida porttitor. Aenean posuere lacus quis.`
+    },
     innovators: {
         heading: `WE ARE INNOVATORS IN AGRICULTURAL BUSINESS. OUR GOAL IS TO BRING HEALTHY ORGANIC FOOD TO EVERY PEOPLE.`,
         description: `Integer sit amet mattis quam, sit amet dol ultricies velit. Praesent ullam corper duits turpis dolor sit amet quam. Nulla comodol gravida porttitor. Aenean posuere lacusnt quis leo imperdiet laoreet. Proin vulputat.

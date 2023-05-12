@@ -1,5 +1,4 @@
 import React from 'react'
-import Description from './Description'
 import styles from './ContentBlockItem.module.css'
 function ContentBlockItem({ item, type }) {
     let res = ''
@@ -12,7 +11,7 @@ function ContentBlockItem({ item, type }) {
         <div className={res}>
             {item.image}
             <h3>{item.title}</h3>
-            <Description>{item.description}</Description>
+            <p>{item.description}</p>
         </div>
     )
 }

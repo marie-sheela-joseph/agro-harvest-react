@@ -1,26 +1,23 @@
 import React from 'react'
-import Container from './Container'
-import ContentBlock from './ContentBlock'
 import FlexContainer from './FlexContainer'
-import './innovators.css'
+import styles from './innovators.module.css'
 function Innovators({ heading, description, list, background }) {
     return (
-        <section className='innovators'>
-            <div className='abs'></div>
-            <Container>
-                <ContentBlock>
+        <section className={styles.innovators}>
+            <div className={styles.innovators__bg_filter}></div>
+            <div className={`${styles.innovators__container} container`}>
+                <div>
                     <FlexContainer>
                         <h3 className='col-s-4'>{heading}</h3>
-                        <div className='col-s-4 description'>{description}</div>
+                        <div className={`${styles.innovators__description} col-s-4`}>{description}</div>
                         <div className='col-s-4'>
                             <ul>
                                 {list.map((item) => <li>{item}</li>)}
                             </ul>
                         </div>
                     </FlexContainer>
-                </ContentBlock>
-            </Container>
-
+                </div>
+            </div>
         </section>
     )
 }
